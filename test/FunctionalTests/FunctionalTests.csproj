@@ -3,11 +3,11 @@
   <Import Project="..\..\build\common.props" />
 
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp1.1;net451</TargetFrameworks>
+    <TargetFrameworks>netcoreapp2.0;net451</TargetFrameworks>
     <DefineConstants>$(DefineConstants);__RemoveThisBitTo__GENERATE_BASELINES</DefineConstants>
     <!-- set explicitly because some tests depend on this -->
     <RootNamespace>FunctionalTests</RootNamespace>
-    <RuntimeIdentifier Condition=" '$(TargetFramework)' != 'netcoreapp1.1' ">win7-x64</RuntimeIdentifier>
+    <RuntimeIdentifier Condition=" '$(TargetFramework)' != 'netcoreapp2.0' ">win7-x64</RuntimeIdentifier>
     <PreserveCompilationContext>true</PreserveCompilationContext>
   </PropertyGroup>
 
