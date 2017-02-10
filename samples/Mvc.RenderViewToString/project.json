@@ -4,8 +4,8 @@
     "preserveCompilationContext": true
   },
   "dependencies": {
-    "Microsoft.AspNetCore.Mvc": "1.0.2",
-    "Microsoft.AspNetCore.Hosting": "1.0.1"
+    "Microsoft.AspNetCore.Mvc": "1.0.3",
+    "Microsoft.AspNetCore.Hosting": "1.0.2"
   },
   "frameworks": {
     "net451": {},
